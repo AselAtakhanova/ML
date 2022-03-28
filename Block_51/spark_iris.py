@@ -63,8 +63,8 @@ accuracy = evaluator.evaluate(prediction)
 
 print()
 print('#####################################')
-print('Regularization rate is {}'.format(reg))
-print("Accuracy is {}".format(accuracy))
+print('Скорость регуляризации: {}'.format(reg))
+print("Точность".format(accuracy))
 print('#####################################')
 print()
 
